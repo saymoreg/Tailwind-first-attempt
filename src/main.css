@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-nav{
+    @apply inline-block py-2 px-2 border-b-2 text-white border-transparent hover:border-red-600;
+}
+
+.footer-nav{
+    @apply border-2 rounded hover:bg-teal-600 hover:border-transparent;
+}
